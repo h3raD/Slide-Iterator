@@ -1,8 +1,8 @@
-module com.example.iterator_lab {
+module com.example.task5 {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.task4 to javafx.fxml;
-    exports com.example.task4;
+    opens com.example.task5 to javafx.fxml;
+    exports com.example.task5;
 }
